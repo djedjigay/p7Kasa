@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+.cover {
+    display: flex;
+    justify-content: center;
+    background-position:center bottom;
+    background-size: cover;
+  }
+  .imgAccueil {
+
+    width: 100%;
+    height: 160px;
+    filter: contrast(0.9);
+    border-radius: 15px;
+  }
+  
+  .cover p {
+    font-weight: bold;
+font-size: 40px;
+line-height: 142.6%;
+    font-weight: 500px;
+    position: absolute;
+    color: white;
+
+    transform: translate(0%, 50%);
+    z-index: 6;
+  }
+  
+  .listCard {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F6F6F6;
+margin-top:50px;
+padding-top: 35px;
+    border-radius: 15px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 330px;
+    width: 330px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    background: rgb(255, 96, 96);
+    background: linear-gradient(180deg, rgb(255, 96, 96) 35%, rgba(13, 9, 12, 0.5788690476) 100%);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    filter: brightness(0.8);
+  }
+  
+  .card b {
+    position: absolute;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 699px) {
+    body {
+      margin: 0 20px;
+    }
+    .imgAccueil {
+      height: 100px;
+    }
+    .listCard {
+      background-color: white;
+      margin: 0 0;
+    }
+    .card {
+      height: 100%;
+      width: 100%;
+      margin: 10px 0px;
+    }
+    .card b {
+      width: 40%;
+    }
+    .cover {
+      justify-content: flex-start;
+    }
+    .cover p {
+      font-size: 25px;
+      width: 50%;
+    }
+  }/*# sourceMappingURL=Home.css.map */
